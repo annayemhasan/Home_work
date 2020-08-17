@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.menu {
+    background: #c2c2c2;
+    padding: 10px 20px;
+    border-bottom: 3px solid #00ffd0;
+}
+
+.logo {
+    width: 30%;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.primaryMenu {
+    width: 55%;
+    float: right;
+}
+
+.primaryMenu ul {
+    margin: 0;
+    display: block;
+}
+
+.primaryMenu ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.primaryMenu ul li a {
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    font-size: 25px;
+    transition: all .5s;
+    color: #211a1a;
+}
+
+.subMenu {
+    position: absolute;
+    background: #00ffd09f;
+    width: 300px;
+    top: 84px;
+    left: 0;
+    padding: 0;
+    transform: scaleY(0);
+    transition: all .5s;
+    transform-origin: top;
+    opacity: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.halfWidth span {
+    color: orange;
+}
+
+.heroSection {
+    height: 500px;
+    background-image: url('../img/hero-banner.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.halfWidth {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.halfWidth img {
+    width: 600px;
+}
+
+.halfWidth a {
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(157, 122, 255), rgb(10, 212, 27));
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.halfWidth p {
+    margin-bottom: 40px;
+}
+
+.secondSection {
+    padding: 150px 0px;
+    height: 500px;
+    background-image: url("../img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.thirdSection {
+    height: 600px;
+    background-image: url("../img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+div#leftContent h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+div#leftContent h3 {
+    font-weight: 600;
+    color: orange;
+}
+
+div#rightContent h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+div#rightContent h3 {
+    font-weight: 600;
+    color: orange;
+}
+
+div#leftContent {
+    border-left: 7px solid;
+    border-image: linear-gradient(190deg, rgb(211, 27, 228), rgb(27, 24, 221));
+    border-image-slice: 1;
+}
+
+div#rightContent {
+    border-left: 7px solid;
+    border-image: linear-gradient(190deg, rgb(175, 214, 34), rgb(216, 51, 10));
+    border-image-slice: 1;
+}
+
+section.thirdSection div {
+    box-shadow: 5px 7px 40px lightgrey;
+    height: 50%;
+    padding: 0px 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: -30px;
+    background: #000;
+    padding: 25px 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 183, 255);
+    transition: all .5s;
+}
+
+a:hover {
+    color: red;
+}
+
+.primaryMenu ul li a:hover {
+    color: orange;
+}
+
+.subMenu li a {
+    padding: 10px 20px !important;
+}
+
+.subMenu li a:hover {
+    transform: translateX(45px);
+}
+
+.primaryMenu ul li:hover .subMenu {
+    transform: scaleY(1);
+    opacity: 1;
+}
