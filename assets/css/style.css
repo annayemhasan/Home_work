@@ -21,7 +21,7 @@ body {
 }
 
 .primaryMenu {
-    width: 55%;
+    max-width: 70%;
     float: right;
 }
 
@@ -76,14 +76,13 @@ h1 {
 }
 
 .halfWidth {
-    width: 40%;
+    max-width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    margin-left: 4%;
 }
 
 .halfWidth img {
-    width: 600px;
+    width: 555px;
 }
 
 .halfWidth a {
@@ -105,13 +104,16 @@ h1 {
     background-image: url("../img/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+    overflow: hidden;
+    width: 100%;
 }
 
 .thirdSection {
-    height: 600px;
+    height: 700px;
     background-image: url("../img/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    width: 100%;
 }
 
 div#leftContent h2 {
@@ -148,7 +150,7 @@ div#rightContent {
 
 section.thirdSection div {
     box-shadow: 5px 7px 40px lightgrey;
-    height: 50%;
+    height: 60%;
     padding: 0px 30px;
 }
 
@@ -159,6 +161,8 @@ footer {
     padding: 25px 0;
     color: #fff;
     font-size: 20px;
+    width: 100%;
+    overflow: hidden;
 }
 
 footer a {
